@@ -1,0 +1,72 @@
+.appleOfMy {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.allRightsReserved,
+.copyright2024 {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.copyrightC {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px 0;
+  font-size: var(--body-regular-body-3-size);
+  color: var(--neutral-silver);
+}
+.socialIcons,
+.socialIcons1,
+.socialIcons2,
+.socialIcons3 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  min-height: 32px;
+}
+.frameAppleOfEye,
+.frameSocialIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 16px;
+}
+.frameAppleOfEye {
+  width: 350px;
+  flex-direction: column;
+  gap: 40px 0;
+  min-width: 350px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--neutral-white);
+  font-family: var(--body-regular-body-3);
+}
+@media screen and (max-width: 1400px) {
+  .frameAppleOfEye {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 825px) {
+  .appleOfMy {
+    font-size: var(--font-size-7xl);
+  }
+  .frameAppleOfEye {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .appleOfMy {
+    font-size: var(--font-size-lgi);
+  }
+  .frameAppleOfEye {
+    gap: 40px 0;
+  }
+}

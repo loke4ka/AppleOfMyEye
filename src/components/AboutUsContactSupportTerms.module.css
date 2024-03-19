@@ -1,0 +1,155 @@
+.aboutUs,
+.company,
+.contactUs {
+  align-self: stretch;
+  position: relative;
+}
+.company {
+  margin: 0;
+  font-size: inherit;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.aboutUs,
+.contactUs {
+  line-height: 20px;
+}
+.aboutUsTermsOfService,
+.frameCompany {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.aboutUsTermsOfService {
+  align-self: stretch;
+  gap: 12px 0;
+  font-size: var(--body-regular-body-3-size);
+  color: var(--neutral-silver);
+}
+.frameCompany {
+  width: 160px;
+  gap: 24px 0;
+}
+.support {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.privacyPolicy,
+.termsOfService {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.frameCompany1,
+.termsOfServiceParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.termsOfServiceParent {
+  align-self: stretch;
+  gap: 12px 0;
+  font-size: var(--body-regular-body-3-size);
+  color: var(--neutral-silver);
+}
+.frameCompany1 {
+  width: 160px;
+  gap: 24px 0;
+}
+.stayUpTo,
+.yourEmailAddress {
+  position: relative;
+  display: inline-block;
+}
+.stayUpTo {
+  margin: 0;
+  width: 160px;
+  font-size: inherit;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.yourEmailAddress {
+  width: 126px;
+  border: 0;
+  outline: 0;
+  font-family: var(--body-regular-body-3);
+  font-size: var(--body-regular-body-3-size);
+  background-color: transparent;
+  height: 20px;
+  line-height: 20px;
+  color: var(--text-gray-300);
+  text-align: left;
+}
+.essentialIconsSend {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.emailInputField {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-4xs) var(--padding-xs) var(--padding-2xs);
+  gap: var(--gap-xl);
+}
+.aboutUsContactSupportTerms,
+.stayUpdated {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.stayUpdated {
+  flex: 1;
+  flex-direction: column;
+  gap: 24px 0;
+  min-width: 166px;
+}
+.aboutUsContactSupportTerms {
+  width: 635px;
+  flex-direction: row;
+  gap: 0 30px;
+  min-width: 635px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--heading-headline-4-size);
+  color: var(--neutral-white);
+  font-family: var(--body-regular-body-3);
+}
+@media screen and (max-width: 1325px) {
+  .aboutUsContactSupportTerms {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .aboutUsContactSupportTerms {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .aboutUsContactSupportTerms {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .company,
+  .stayUpTo,
+  .support {
+    font-size: var(--body-medium-body-2-size);
+    line-height: 22px;
+  }
+}

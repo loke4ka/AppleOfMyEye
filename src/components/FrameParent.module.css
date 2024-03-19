@@ -1,0 +1,145 @@
+.variousAspectsOf {
+  color: var(--main-foreground);
+}
+.sectionTitle {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 44px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.sectionHeading,
+.sectionHeading1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sectionHeading1 {
+  align-self: stretch;
+}
+.sectionHeading {
+  width: 540px;
+  flex-shrink: 0;
+  min-width: 540px;
+  max-width: 100%;
+}
+.label,
+.number {
+  align-self: stretch;
+  position: relative;
+}
+.label {
+  font-size: var(--body-medium-body-2-size);
+  line-height: 24px;
+  color: var(--neutral-grey);
+}
+.details {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px 0;
+  min-width: 168px;
+}
+.label1,
+.number1 {
+  align-self: stretch;
+  position: relative;
+}
+.label1 {
+  font-size: var(--body-medium-body-2-size);
+  line-height: 24px;
+  color: var(--neutral-grey);
+}
+.counts,
+.details1 {
+  flex: 1;
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.details1 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px 0;
+  min-width: 168px;
+}
+.counts {
+  padding: 0 var(--padding-2xl) 0 0;
+  gap: 0 50px;
+  min-width: 383px;
+  font-size: var(--heading-headline-4-size);
+}
+.achievements,
+.counts,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.achievements {
+  flex: 1;
+  background-color: var(--neutral-silver);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-45xl) var(--padding-121xl);
+  gap: 0 30px;
+}
+.frameParent {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-21xl);
+  text-align: left;
+  font-size: var(--heading-headline-2-size);
+  color: var(--neutral-d-grey);
+  font-family: var(--body-regular-body-3);
+}
+@media screen and (max-width: 1200px) {
+  .sectionHeading {
+    flex: 1;
+    min-width: 100%;
+  }
+  .achievements {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 825px) {
+  .sectionTitle {
+    font-size: var(--font-size-10xl);
+    line-height: 35px;
+  }
+  .counts {
+    flex-wrap: wrap;
+    gap: 0 50px;
+    min-width: 100%;
+  }
+  .achievements {
+    gap: 0 30px;
+    padding-left: var(--padding-51xl);
+    padding-right: var(--padding-51xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sectionTitle {
+    font-size: var(--font-size-3xl);
+    line-height: 26px;
+  }
+  .number,
+  .number1 {
+    font-size: var(--body-medium-body-2-size);
+  }
+  .achievements {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

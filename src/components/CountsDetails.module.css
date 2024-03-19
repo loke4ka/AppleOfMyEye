@@ -1,0 +1,76 @@
+.appleOfMy {
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.logo {
+  height: 24px;
+  width: 178px;
+  display: none;
+}
+.label {
+  font-weight: 500;
+}
+.label,
+.label1,
+.label2,
+.label3,
+.label4 {
+  position: relative;
+  line-height: 24px;
+}
+.label4 {
+  font-weight: 600;
+  color: var(--main-foreground);
+}
+.countsDetails,
+.membershipOrgIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.membershipOrgIcon {
+  width: 488px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--body-medium-body-2-size);
+  color: var(--text-gray-900);
+}
+.countsDetails {
+  align-self: stretch;
+  background-color: var(--neutral-silver);
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-11xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: 0 485px;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  text-align: left;
+  font-size: var(--heading-headline-4-size);
+  color: var(--main-foreground);
+  font-family: var(--body-regular-body-3);
+}
+@media screen and (max-width: 1400px) {
+  .countsDetails {
+    gap: 0 485px;
+  }
+}
+@media screen and (max-width: 825px) {
+  .appleOfMy {
+    display: none;
+  }
+  .countsDetails {
+    gap: 0 485px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .membershipOrgIcon {
+    display: none;
+  }
+  .countsDetails {
+    gap: 0 485px;
+  }
+}

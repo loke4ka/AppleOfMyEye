@@ -1,0 +1,41 @@
+.howDoesThe {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  max-width: 100%;
+}
+.processExplanation {
+  width: 1078px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.plus01Icon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  border-radius: var(--br-xl);
+}
+.question {
+  width: 1152px;
+  border-bottom: 1px solid var(--second);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-base) 0;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--heading-headline-4-size);
+  color: var(--neutral-d-grey);
+  font-family: var(--body-regular-body-3);
+}
+@media screen and (max-width: 450px) {
+  .howDoesThe {
+    font-size: var(--body-medium-body-2-size);
+    line-height: 24px;
+  }
+}

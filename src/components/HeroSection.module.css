@@ -1,0 +1,144 @@
+.iconChild {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-thistle);
+  position: absolute;
+  top: 56px;
+  left: 65px;
+  border-radius: var(--br-lg) var(--br-8xs) var(--br-3xs) var(--br-8xs);
+  width: 50px;
+  height: 49px;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+}
+.icon2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 48px;
+  height: 48px;
+  z-index: 1;
+}
+.icon1 {
+  height: 56px;
+  flex: 1;
+  position: relative;
+}
+.icon {
+  width: 65px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.interactionWithTechnology {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 36px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.settingUpHousehold {
+  width: 240px;
+  position: relative;
+  font-size: var(--body-regular-body-3-size);
+  line-height: 20px;
+  color: var(--neutral-grey);
+  display: inline-block;
+}
+.label,
+.nationalAssociations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.label {
+  align-self: stretch;
+  gap: 8px 0;
+}
+.nationalAssociations {
+  width: 299px;
+  border-radius: var(--br-5xs);
+  background-color: var(--neutral-white);
+  box-shadow: 0 2px 4px rgba(171, 190, 209, 0.2);
+  padding: var(--padding-5xl) var(--padding-base);
+  box-sizing: border-box;
+  gap: 16px 0;
+}
+.membershipIcons {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--padding-126xl) 0 var(--padding-125xl);
+  gap: var(--gap-xl);
+}
+.heroSection,
+.sectionTitle {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.sectionTitle {
+  margin: 0;
+  width: 582px;
+  position: relative;
+  font-size: var(--heading-headline-2-size);
+  line-height: 44px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  padding-left: var(--padding-xl);
+  padding-right: var(--padding-xl);
+}
+.heroSection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-35xl);
+  gap: 16px 0;
+  text-align: center;
+  font-size: var(--heading-headline-3-size);
+  color: var(--neutral-d-grey);
+  font-family: var(--body-regular-body-3);
+}
+@media screen and (max-width: 1325px) {
+  .membershipIcons {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .membershipIcons {
+    padding-left: var(--padding-53xl);
+    padding-right: var(--padding-53xl);
+    box-sizing: border-box;
+  }
+  .sectionTitle {
+    font-size: var(--font-size-10xl);
+    line-height: 35px;
+  }
+  .heroSection {
+    padding-bottom: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .interactionWithTechnology {
+    font-size: var(--font-size-3xl);
+    line-height: 29px;
+  }
+  .membershipIcons {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .sectionTitle {
+    font-size: var(--font-size-3xl);
+    line-height: 26px;
+  }
+}

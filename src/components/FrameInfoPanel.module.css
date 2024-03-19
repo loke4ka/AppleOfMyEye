@@ -1,0 +1,171 @@
+.aboutUs,
+.company,
+.contactUs {
+  align-self: stretch;
+  position: relative;
+}
+.company {
+  line-height: 28px;
+  font-weight: 600;
+}
+.aboutUs,
+.contactUs {
+  line-height: 20px;
+}
+.aboutUsTermsOfServiceFram,
+.footerStayConnected {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.aboutUsTermsOfServiceFram {
+  align-self: stretch;
+  gap: 12px 0;
+  font-size: var(--body-regular-body-3-size);
+  color: var(--neutral-silver);
+}
+.footerStayConnected {
+  width: 160px;
+  gap: 24px 0;
+}
+.support {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.privacyPolicy,
+.termsOfService {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.footerStayConnected1,
+.termsOfServiceParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.termsOfServiceParent {
+  align-self: stretch;
+  gap: 12px 0;
+  font-size: var(--body-regular-body-3-size);
+  color: var(--neutral-silver);
+}
+.footerStayConnected1 {
+  width: 160px;
+  gap: 24px 0;
+}
+.stayUpTo {
+  width: 160px;
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+  display: inline-block;
+}
+.inputFieldBg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0.2px;
+  right: 0;
+  bottom: -0.2px;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-100);
+}
+.yourEmailAddress {
+  width: 126px;
+  border: 0;
+  outline: 0;
+  font-family: var(--body-regular-body-3);
+  font-size: var(--body-regular-body-3-size);
+  background-color: transparent;
+  height: 20px;
+  position: relative;
+  line-height: 20px;
+  color: var(--text-gray-300);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.essentialIconsSend {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+  cursor: pointer;
+}
+.essentialIconsSend:hover {
+  opacity: 0.8;
+}
+.emailInputField,
+.stayUpToDateEmailInputFi {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.emailInputField {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-4xs) var(--padding-xs) var(--padding-2xs);
+  position: relative;
+  gap: var(--gap-xl);
+}
+.frameInfoPanel,
+.stayUpToDateEmailInputFi {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.stayUpToDateEmailInputFi {
+  flex: 1;
+  flex-direction: column;
+  gap: 24px 0;
+  min-width: 166px;
+}
+.frameInfoPanel {
+  width: 635px;
+  flex-direction: row;
+  gap: 0 30px;
+  min-width: 635px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--heading-headline-4-size);
+  color: var(--neutral-white);
+  font-family: var(--body-regular-body-3);
+}
+@media screen and (max-width: 1400px) {
+  .frameInfoPanel {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .frameInfoPanel {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 825px) {
+  .frameInfoPanel {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .company,
+  .stayUpTo,
+  .support {
+    font-size: var(--body-medium-body-2-size);
+    line-height: 22px;
+  }
+}

@@ -1,0 +1,537 @@
+.backgroundCompleteIcon {
+  position: absolute;
+  top: -0.5px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.padlockIcon,
+.plantIcon {
+  position: absolute;
+  top: 195.9px;
+  left: 287.4px;
+  width: 85.9px;
+  height: 147.8px;
+  z-index: 2;
+}
+.padlockIcon {
+  top: 4.3px;
+  left: 282.4px;
+  width: 86.1px;
+  height: 103px;
+}
+.appleOfMyEye,
+.footerBigIcon,
+.frameFrameCompany,
+.singUp {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+.appleOfMyEye,
+.frameFrameCompany,
+.singUp {
+  left: -0.2px;
+  z-index: 4;
+}
+.frameFrameCompany,
+.singUp {
+  top: -0.4px;
+  width: 79.6px;
+  height: 24.2px;
+  z-index: 5;
+}
+.singUp {
+  top: 5.5px;
+  left: 22.1px;
+  display: inline-block;
+  width: 99.2px;
+  height: 103.4px;
+  z-index: 6;
+}
+.socialIcons {
+  position: absolute;
+  top: 227px;
+  left: 28px;
+  width: 121px;
+  height: 109px;
+}
+.copyrightFrameIcon,
+.textInputField {
+  position: absolute;
+  top: 74.5px;
+  left: 17.9px;
+  width: 26.6px;
+  height: 5px;
+  object-fit: contain;
+  z-index: 5;
+}
+.textInputField {
+  z-index: 6;
+}
+.inputFieldBG {
+  position: absolute;
+  top: 0.3px;
+  left: -0.4px;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+.textContainerIcon,
+.vectorIcon {
+  position: absolute;
+  top: 0.2px;
+  left: -0.1px;
+  width: 48.6px;
+  height: 4.6px;
+}
+.vectorIcon {
+  display: none;
+}
+.textContainerIcon {
+  z-index: 7;
+}
+.frameFrameTermsOfService {
+  position: absolute;
+  top: 6px;
+  left: 8px;
+  background-color: var(--main-foreground);
+  width: 49px;
+  height: 5px;
+  z-index: 6;
+}
+.frameIcon,
+.stayUpToDate {
+  position: absolute;
+  top: 86px;
+  left: 18px;
+  width: 107px;
+  height: 18px;
+}
+.frameIcon {
+  top: 0;
+  left: 0.4px;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+.componentIcon,
+.rectangleIcon {
+  position: absolute;
+  top: -0.3px;
+  left: -0.1px;
+  width: 48.6px;
+  height: 4.8px;
+  object-fit: contain;
+}
+.componentIcon {
+  z-index: 7;
+}
+.membershipLogo {
+  position: absolute;
+  top: 7px;
+  left: 8px;
+  width: 49px;
+  height: 5px;
+}
+.numberIcon,
+.sectionTitle1 {
+  position: absolute;
+  top: 131px;
+  left: 17px;
+  width: 107px;
+  height: 18px;
+}
+.numberIcon {
+  top: 0.2px;
+  left: 0.2px;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+.frameIcon1,
+.icon,
+.sectionHeadingIcon {
+  position: absolute;
+  top: -0.1px;
+  left: 39.6px;
+  width: 4.3px;
+  height: 4.6px;
+  z-index: 6;
+}
+.icon,
+.sectionHeadingIcon {
+  top: 0;
+  left: 46.1px;
+  height: 4.3px;
+}
+.icon {
+  left: 52.7px;
+}
+.groupIcon {
+  position: absolute;
+  top: -0.2px;
+  left: 0;
+  width: 56.9px;
+  height: 4.7px;
+}
+.detailsNumberLabel1,
+.label {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 57px;
+  height: 5px;
+}
+.label {
+  top: 177px;
+  left: 17px;
+  width: 107px;
+  height: 18px;
+}
+.letMeDoIt,
+.millionBlindIcon {
+  position: absolute;
+  top: 0.4px;
+  left: 0.4px;
+  width: 13.7px;
+  height: 14.9px;
+  z-index: 5;
+}
+.letMeDoIt {
+  z-index: 6;
+}
+.liveStreaming {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  width: 14px;
+  height: 15px;
+}
+.descriptionIcon,
+.frameIcon2 {
+  position: absolute;
+  top: 49.2px;
+  left: 46.1px;
+  width: 48.8px;
+  height: 6.1px;
+  object-fit: contain;
+  z-index: 5;
+}
+.descriptionIcon {
+  z-index: 6;
+}
+.companyFrame {
+  position: absolute;
+  width: calc(100% - 13px);
+  top: 9px;
+  right: 6px;
+  left: 7px;
+  height: 285px;
+}
+.letDoTheWork {
+  position: absolute;
+  top: 50px;
+  left: 163px;
+  width: 149px;
+  height: 304px;
+}
+.backgroundSimpleIcon,
+.frameTitle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 381px;
+}
+.backgroundSimpleIcon {
+  top: 0.1px;
+  left: 0.1px;
+  height: 100%;
+}
+.speechBubbleIcon {
+  position: absolute;
+  top: 51.6px;
+  left: 11px;
+  width: 53.3px;
+  height: 60.5px;
+  z-index: 2;
+}
+.membershipOrganizations {
+  position: absolute;
+  top: 87px;
+  left: 48px;
+  width: 320px;
+  height: 298px;
+}
+.countsIcon,
+.headerIcon,
+.logoIcon,
+.sectionHeadingIcon1 {
+  position: absolute;
+  top: 33px;
+  left: 101.7px;
+  width: 26.6px;
+  height: 5px;
+  object-fit: contain;
+  z-index: 5;
+}
+.countsIcon,
+.logoIcon,
+.sectionHeadingIcon1 {
+  z-index: 6;
+}
+.countsIcon,
+.sectionHeadingIcon1 {
+  top: 79.4px;
+  left: 101.5px;
+  z-index: 5;
+}
+.countsIcon {
+  z-index: 6;
+}
+.achievementsIcon,
+.detailsNumberLabel2 {
+  position: absolute;
+  top: 98.8px;
+  left: 109px;
+  width: 4.3px;
+  height: 4.3px;
+  z-index: 6;
+}
+.achievementsIcon {
+  left: 115.6px;
+  height: 4.6px;
+}
+.frameIcon3,
+.icon1,
+.membershipOrganizatiosIcon,
+.rectangleIcon1 {
+  position: absolute;
+  top: 98.8px;
+  left: 122.2px;
+  width: 4.3px;
+  height: 4.3px;
+  z-index: 6;
+}
+.icon1,
+.membershipOrganizatiosIcon,
+.rectangleIcon1 {
+  left: 128.8px;
+}
+.icon1,
+.rectangleIcon1 {
+  top: 98.9px;
+  left: 135.4px;
+}
+.rectangleIcon1 {
+  left: 142px;
+}
+.characterIcon,
+.titleBar {
+  position: absolute;
+  top: -0.3px;
+  left: -0.4px;
+  width: 100%;
+  height: 100%;
+}
+.titleBar {
+  top: 145px;
+  left: 86px;
+  width: 148px;
+  height: 288px;
+}
+.detailsNumberLabel,
+.floorIcon {
+  position: relative;
+  max-width: 100%;
+}
+.detailsNumberLabel {
+  height: 433px;
+  width: 442px;
+}
+.floorIcon {
+  width: 320.6px;
+  max-height: 100%;
+  margin-left: -386px;
+}
+.sectionTitle {
+  width: 442px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  min-width: 442px;
+  max-width: 100%;
+}
+.oneEventCalendar {
+  width: 439px;
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  max-width: 100%;
+}
+.effortlesslyObtainVisual {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 44px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.oneEventCalendar1 {
+  width: 439px;
+  position: relative;
+  font-size: var(--body-medium-body-2-size);
+  line-height: 20px;
+  color: var(--neutral-grey);
+  display: inline-block;
+  max-width: 100%;
+}
+.frameContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-base);
+  box-sizing: border-box;
+  gap: 16px 0;
+  max-width: 100%;
+  font-size: var(--heading-headline-2-size);
+  color: var(--neutral-d-grey);
+}
+.label1 {
+  position: relative;
+  font-size: var(--body-medium-body-2-size);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--body-regular-body-3);
+  color: var(--neutral-white);
+  text-align: center;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-9xl) var(--padding-sm)
+    var(--padding-13xl);
+  background-color: var(--main-foreground);
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: var(--color-mediumpurple);
+}
+.appleofmyeye,
+.sectionHeading,
+.unlock {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.appleofmyeye {
+  width: 601px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px 0;
+  min-width: 601px;
+  font-size: var(--body-medium-body-2-size);
+  color: var(--neutral-grey);
+  font-family: var(--body-regular-body-3);
+}
+.sectionHeading,
+.unlock {
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.unlock {
+  flex: 1;
+  align-items: center;
+  padding: var(--padding-51xl) var(--padding-125xl) var(--padding-52xl);
+  gap: 0 49px;
+  }
+.sectionHeading {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-21xl);
+  text-align: left;
+  font-size: var(--font-size-4xs-1);
+  color: var(--color-gainsboro-100);
+  font-family: var(--font-montserrat);
+}
+
+@media screen and (max-width: 1920px) {
+  .sectionHeading {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    }
+  .unlock {
+    max-width: 100%;
+    padding: 0 0 var(--padding-21xl);
+    box-sizing: border-box;
+    gap: 0 0px;
+  }
+  .backgroundSimpleIcon {
+    margin-left: -85px;
+    margin-top: -40px;
+    margin-right: auto;
+    max-width: 100%;
+  }
+  .membershipOrganizations {
+    margin-left: auto;
+    margin-right: auto;
+    width: 442px;
+    height: 433px;
+    max-width: 100%;  
+  }
+}
+
+
+@media screen and (max-width: 1400px) {
+  .appleofmyeye,
+  .sectionTitle {
+    flex: 1;
+  }
+  .unlock {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: var(--padding-53xl);
+    padding-right: var(--padding-53xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .appleofmyeye {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 825px) {
+  .sectionTitle {
+    min-width: 100%;
+  }
+  .effortlesslyObtainVisual {
+    font-size: var(--font-size-10xl);
+    line-height: 35px;
+  }
+  .unlock {
+    gap: 0 49px;
+    padding: var(--padding-26xl) var(--padding-17xl) var(--padding-27xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .effortlesslyObtainVisual {
+    font-size: var(--font-size-3xl);
+    line-height: 26px;
+  }
+}

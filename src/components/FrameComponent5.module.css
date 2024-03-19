@@ -1,0 +1,162 @@
+.httpwwwworldblindunionorg1,
+.worldBlindUnion {
+  margin: 0;
+}
+.httpwwwworldblindunionorg,
+.theWorldBlind {
+  position: relative;
+  line-height: 120%;
+  display: inline-block;
+  max-width: 100%;
+}
+.httpwwwworldblindunionorg {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.theWorldBlind {
+  width: 426px;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkgray-100);
+}
+.bg {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--achievement);
+}
+.millionPersons,
+.theEstimated {
+  position: relative;
+  line-height: 100%;
+}
+.theEstimated {
+  font-weight: 500;
+  display: inline-block;
+  min-width: 115px;
+}
+.millionPersons {
+  color: var(--color-darkgray-100);
+}
+.bgParent,
+.httpwwwworldblindunionorgParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bgParent {
+  flex-direction: row;
+  gap: var(--gap-xl);
+  font-size: var(--body-medium-body-2-size);
+}
+.httpwwwworldblindunionorgParent {
+  width: 525px;
+  background-color: var(--neutral-white);
+  box-shadow: var(--bttn-shadow);
+  flex-direction: column;
+  padding: var(--padding-21xl) var(--padding-11xl);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.httpsookoskzru,
+.kazakhSocietyFor,
+.publicAssociation {
+  margin: 0;
+}
+.httpsookoskzruPublicAsContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 500;
+  font-family: inherit;
+}
+.isARepublican {
+  width: 426px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 120%;
+  color: var(--color-darkgray-100);
+  display: inline-block;
+  max-width: 100%;
+}
+.httpsookoskzruPublicAsParent {
+  align-self: stretch;
+  background-color: var(--neutral-white);
+  box-shadow: var(--bttn-shadow);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) var(--padding-11xl);
+  gap: var(--gap-base);
+}
+.div,
+.httpsookoskzruPublicAsParent,
+.inner,
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.inner {
+  width: 525px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.div,
+.wrapper {
+  flex-direction: row;
+}
+.div {
+  flex: 1;
+  justify-content: space-between;
+  padding: 0 var(--padding-125xl);
+  gap: var(--gap-xl);
+}
+.wrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) var(--padding-41xl) var(--padding-11xs-5);
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--main-foreground);
+  font-family: var(--body-regular-body-3);
+}
+@media screen and (max-width: 1350px) {
+  .div {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .div {
+    padding-left: var(--padding-53xl);
+    padding-right: var(--padding-53xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .httpwwwworldblindunionorg {
+    font-size: var(--font-size-lg);
+    line-height: 21px;
+  }
+  .bg {
+    width: 100%;
+  }
+  .bgParent {
+    flex-wrap: wrap;
+  }
+  .httpsookoskzruPublicAsContainer {
+    font-size: var(--font-size-lg);
+    line-height: 21px;
+  }
+  .div {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

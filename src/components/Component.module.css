@@ -1,0 +1,103 @@
+.frameChild {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--achievement);
+  border: 0 solid var(--achievement);
+  box-sizing: border-box;
+}
+.ellipseWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs-5) 0 0;
+}
+.branchOfNgo {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.kokshetauCityKanaibi {
+  margin: 0;
+}
+.eMailAkmolafilialmailru {
+  margin: 0;
+  font-size: var(--heading-headline-4-size);
+  color: var(--color-darkslategray-100);
+}
+.p {
+  margin: 0;
+}
+.kokshetauCityKanaibiContainer {
+  height: 96px;
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  max-width: 100%;
+}
+.frameParent,
+.kokshetauCityKanaibiStr42Wrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.kokshetauCityKanaibiStr42Wrapper {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-11xl);
+  box-sizing: border-box;
+  color: var(--second);
+}
+.frameParent {
+  flex-direction: column;
+  gap: var(--gap-mini);
+  flex-shrink: 0;
+}
+.child,
+.div {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.child {
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-darkslategray-100);
+  opacity: 0.2;
+}
+.div {
+  height: 192px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-31xl);
+  gap: var(--gap-31xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-7xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--body-regular-body-3);
+}
+@media screen and (max-width: 450px) {
+  .branchOfNgo {
+    font-size: var(--font-size-2xl);
+  }
+  .kokshetauCityKanaibiContainer {
+    font-size: var(--body-medium-body-2-size);
+    line-height: 31px;
+  }
+}

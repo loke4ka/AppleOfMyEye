@@ -1,0 +1,89 @@
+.appleOfMy {
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.logo {
+  height: 24px;
+  width: 178px;
+  display: none;
+}
+.label {
+  font-weight: 500;
+}
+.label,
+.label1,
+.label2,
+.label3,
+.label4 {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 46px;
+}
+.label2,
+.label3,
+.label4 {
+  min-width: 87px;
+}
+.label3,
+.label4 {
+  min-width: 31px;
+}
+.label4 {
+  font-weight: 600;
+  color: var(--main-foreground);
+  min-width: 78px;
+}
+.fRAMECOMMUNITY,
+.labelParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+  text-align: left;
+  font-family: var(--body-regular-body-3);
+}
+.labelParent {
+  margin: 0;
+  width: 488px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--body-medium-body-2-size);
+  color: var(--text-gray-900);
+}
+.fRAMECOMMUNITY {
+  align-self: stretch;
+  background-color: var(--neutral-silver);
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-11xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-466xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  font-size: var(--heading-headline-4-size);
+  color: var(--main-foreground);
+}
+@media screen and (max-width: 1350px) {
+  .fRAMECOMMUNITY {
+    gap: 485px 242px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .appleOfMy {
+    display: none;
+  }
+  .fRAMECOMMUNITY {
+    gap: 485px 121px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .labelParent {
+    display: none;
+  }
+  .fRAMECOMMUNITY {
+    gap: 485px 61px;
+  }
+}

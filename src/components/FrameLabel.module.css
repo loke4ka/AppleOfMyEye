@@ -1,0 +1,120 @@
+.faq {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.youCanAlways {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 150%;
+  color: var(--neutral-grey);
+}
+.fAQContainerLabel {
+  width: 1146px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 26px 0;
+  max-width: 100%;
+}
+.appleOfMy,
+.howDoesThe {
+  position: relative;
+  line-height: 150%;
+}
+.howDoesThe {
+  display: inline-block;
+  max-width: 100%;
+}
+.appleOfMy {
+  align-self: stretch;
+}
+.appInfo {
+  width: 1078px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px 0;
+  max-width: 100%;
+}
+.plus01Icon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  border-radius: var(--br-xl);
+}
+.question {
+  width: 1152px;
+  border-bottom: 1px solid var(--second);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-base) 0;
+  gap: var(--gap-xl);
+}
+.frameLabel,
+.qnASection {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.qnASection {
+  width: 1152px;
+  overflow-x: auto;
+  align-items: flex-start;
+  gap: 16px 0;
+  font-size: var(--heading-headline-4-size);
+}
+.frameLabel {
+  align-self: stretch;
+  align-items: center;
+  padding: var(--padding-81xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: 44px 0;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--neutral-d-grey);
+  font-family: var(--body-regular-body-3);
+}
+@media screen and (max-width: 1125px) {
+  .frameLabel {
+    padding-top: var(--padding-46xl);
+    padding-bottom: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .faq {
+    font-size: var(--font-size-5xl);
+  }
+  .frameLabel {
+    gap: 44px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .faq {
+    font-size: var(--font-size-lg);
+  }
+  .youCanAlways {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .appleOfMy,
+  .howDoesThe {
+    font-size: var(--body-medium-body-2-size);
+    line-height: 24px;
+  }
+  .frameLabel {
+    padding-top: var(--padding-23xl);
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}
